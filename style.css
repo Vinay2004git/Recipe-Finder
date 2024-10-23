@@ -1,9 +1,8 @@
 /* Simple CSS for Recipe App */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('food.jpg'); 
     background-size: cover; 
-    background-position: center; 
+    background-position: center;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
