@@ -43,7 +43,7 @@ function displayRecipes(recipes) {
             <h3>${recipe.label}</h3>
             <p><strong>Calories:</strong> ${Math.round(recipe.calories)}</p>
             <p><strong>Source:</strong> ${recipe.source}</p>
-            <a href="${recipe.url}" target="_blank">View Recipe</a>
+            <a href="${recipe.url}">View Recipe</a>
         `;
 
         recipesContainer.appendChild(recipeElement);
